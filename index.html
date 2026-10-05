@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Pousada Secreta</title>
 </head>
 <body>
@@ -17,13 +20,13 @@
     </header>
     <main>
         <section class="banner">
-            <div>
+            <div class="banner-text container">
                 <h2>Pousada Secreta</h2>
                 <p>A Pousada reservada em Angra dos Reis</p>
             </div>            
         </section>
         <section class="apresentacao">
-            <div class="apresentacao-text">
+            <div class="container">
                 <h2>Seja bem-vindo(a)!</h2>
                 <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis.</p>
                 <p>Temos quartos para solteiro, casal ou família.</p>
@@ -50,29 +53,33 @@
             </div>
         </section>
         <section class="rota" id="rota">
-            <h2>Rota</h2>
-            <p>Veja como chegar até a pousada.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.10912066254!2d-43.36525837217306!3d-22.98301451259439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1790954673496!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <div class="container">
+                <h2>Rota</h2>
+                <p>Veja como chegar até a pousada.</p>
+            </div>            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.10912066254!2d-43.36525837217306!3d-22.98301451259439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1790954673496!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </section>
         <section class="sobre" id="sobre">
-            <h2>Sobre a Pousada</h2>
-            <p>Conheça um pouco sobre nossa pousada.</p>
+            <div class="container">
+                <h2>Sobre a Pousada</h2>
+                <p>Conheça um pouco sobre nossa pousada.</p>
+            </div>
             <div class="sobre-cards">
-                <div class="card">
+                <div class="cards">
                     <div class="card-text">
                         <h3>A pousada</h3>
                         <p>A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
                     </div>
                     <img src="./assets/img1.jpg" alt="A Pousada">
                 </div>
-                <div class="card">
+                <div class="cards">
                     <div class="card-text">
                         <h3>Nossos quartos</h3>
                         <p>Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as unidades da Pousada Dev contam com ar-condicionado e guarda-roupa.</p>
                     </div>
                     <img src="./assets/img2.jpg" alt="Quartos">
                 </div>
-                <div class="card">
+                <div class="cards">
                     <div class="card-text">
                         <h3>Alimentação</h3>
                         <p>A pousada serve café da manhã em estilo continental ou buffet.
@@ -80,7 +87,7 @@
                     </div>
                     <img src="./assets/img3.jpg" alt="A Pousada">
                 </div>
-                <div class="card">
+                <div class="cards">
                     <div class="card-text">
                         <h3>Recepção</h3>
                         <p>Nossa recepção fica aberta 24hrs.</p>
