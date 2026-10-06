@@ -1,0 +1,82 @@
+:root{
+    --cor-fundo-banner: #07a78fab;
+    --cor-fundo-footer: #49997c;
+    --cor-principal: #000;
+    --cor-detalhe: #41776f;
+    --cor-detalhe-topo: #708fbb;
+    --cor-branca: #fff;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+/* ==========================================================================
+   Seção banner quartos
+   ========================================================================== */
+
+
+.banner-quartos{
+    width: 100%;
+    height: 15vh;
+    background-image: url(../assets/img-fundo.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+/* ==========================================================================
+   Seção Quartos
+   ========================================================================== */
+
+.quartos-cards{
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quarto-card-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.quarto-card-img img{
+    width: 30%;
+    height: 18.75rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--cor-detalhe);
+}
+
+.quarto-card-list{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quarto-card-list h3{
+    font-size: 1.5rem;
+    color: var(--cor-principal);
+    margin-bottom: 3%;
+}
+
+.quarto-card-list ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;                 
+    flex-wrap: wrap;
+}
