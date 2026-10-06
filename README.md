@@ -55,7 +55,7 @@ Durante o desenvolvimento deste projeto, pude praticar:
 
 ## 📷 Preview
 
-[Preview do projeto Pousada Secreta](./assets/pousada-prev.jpg)
+![Preview do projeto Pousada Secreta](./assets/pousada-prev.jpg)
 
 ---
 
