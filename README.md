@@ -49,7 +49,7 @@ Durante o desenvolvimento deste projeto, pude praticar:
 
 ## 🌐 Acesse o projeto
 
-[ Acesse o site ](projeto-pousada-nine.vercel.app)
+<a href="https://projeto-pousada-nine.vercel.app" target="_blank">Acesse o site!</a>
 
 ---
 
